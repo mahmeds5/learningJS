@@ -1,16 +1,10 @@
-let x,y,z;
+let x,y;
 x = 10; 
 y = 15;
-z = 20; 
+z = x + y; 
 
 document.getElementById("pane").innerText = x;
 document.getElementById("pane1").innerText = y;
 document.getElementById("pane2").innerText = z;
 document.getElementById("pane3").innerText = x + y + z;
 
-//hello
-/*This
-is a 
-multi
-line
-comment*/
