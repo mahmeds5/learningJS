@@ -3,7 +3,9 @@ const pi = 3.14159;
 let result = pi * 2; 
 //pi = 2 * pi; 
 
-document.getElementById("pane").innerText = result;
+let bigNum = BigInt(219841921984192374092121984192374092123740921);
+
+document.getElementById("pane").innerText = bigNum;
 document.getElementById("pane1").innerText = pi;
 document.getElementById("pane2").innerText = age;
 document.getElementById("pane3").innerText = isMember;
