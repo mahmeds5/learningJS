@@ -1,12 +1,7 @@
-let x,y;
-x = 10; 
-y = 10;
-z = x + y; 
+let user = "Test", email = "a@a.com", age = 43, isMember = false; 
 
-var total = x + y - z;
-
-document.getElementById("pane").innerText = x;
-document.getElementById("pane1").innerText = y;
-document.getElementById("pane2").innerText = z;
-document.getElementById("pane3").innerText = total;
+document.getElementById("pane").innerText = user;
+document.getElementById("pane1").innerText = email;
+document.getElementById("pane2").innerText = age;
+document.getElementById("pane3").innerText = isMember;
 
