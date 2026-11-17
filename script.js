@@ -1,17 +1,8 @@
-let user = "Test", email = "a@a.com", age = 43, isMember = false; 
-const pi = 3.14159; 
-let result = pi * 2; 
-//pi = 2 * pi; 
+let a,x,y,z;
 
-let bigNum = BigInt(219841921984192374092121984192374092123740921);
 
-let numnum = 5.0;
-let another = 5; 
-
-let expFunc = 2.123e10; 
-
-document.getElementById("pane").innerText = typeof "tst";
-document.getElementById("pane1").innerText = expFunc;
-document.getElementById("pane2").innerText = numnum.toFixed(1);
-document.getElementById("pane3").innerText = another;
+document.getElementById("pane").innerText = a;
+document.getElementById("pane1").innerText = x;
+document.getElementById("pane2").innerText = y;
+document.getElementById("pane3").innerText = z;
 
