@@ -5,7 +5,7 @@ let result = pi * 2;
 
 let bigNum = BigInt(219841921984192374092121984192374092123740921);
 
-document.getElementById("pane").innerText = bigNum;
+document.getElementById("pane").innerText = typeof "tst";
 document.getElementById("pane1").innerText = pi;
 document.getElementById("pane2").innerText = age;
 document.getElementById("pane3").innerText = isMember;
