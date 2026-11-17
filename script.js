@@ -1,6 +1,6 @@
 let a,x,y,z;
 
-a = (10 > 8);
+a = 10**10;
 
 document.getElementById("pane").innerText = a;
 document.getElementById("pane1").innerText = x;
