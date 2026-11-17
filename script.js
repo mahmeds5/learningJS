@@ -8,8 +8,10 @@ let bigNum = BigInt(219841921984192374092121984192374092123740921);
 let numnum = 5.0;
 let another = 5; 
 
+let expFunc = 2.123e10; 
+
 document.getElementById("pane").innerText = typeof "tst";
-document.getElementById("pane1").innerText = pi;
+document.getElementById("pane1").innerText = expFunc;
 document.getElementById("pane2").innerText = numnum.toFixed(1);
 document.getElementById("pane3").innerText = another;
 
