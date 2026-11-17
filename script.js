@@ -1,7 +1,10 @@
 let a,x,y,z;
 
-a = 10**10;
-x = typeof("hello" + 5);
+a = 10;
+b = 10; 
+c = "stringywingy";
+x = (a === b);
+y = (a === x);
 
 document.getElementById("pane").innerText = a;
 document.getElementById("pane1").innerText = x;
