@@ -1,13 +1,18 @@
 let a,x,y,z;
 
-a = 10;
-b = 10; 
-c = "stringywingy";
-x = (a === b);
-y = (a === x);
+let age = 34;
+let text; 
 
-document.getElementById("pane").innerText = a;
-document.getElementById("pane1").innerText = x;
+if (age < 18) {
+    text = "You cannot vote."
+} else if (age > 65) {
+    text = "Damn you old ash but you can vote."
+} else {
+    text = "Yeah you can vote."
+}
+
+document.getElementById("pane").innerText = text;
+document.getElementById("pane1").innerText = a > b;
 document.getElementById("pane2").innerText = y;
 document.getElementById("pane3").innerText = z;
 
