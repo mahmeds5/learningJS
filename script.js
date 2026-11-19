@@ -1,10 +1,11 @@
-let n = 10;
+let n = -10;
 let text = ""; 
 
-while (n > 0) {
+
+do {
     text = text + n + " ";
     n--; 
-}
+} while (n > 0);
 
 
 
