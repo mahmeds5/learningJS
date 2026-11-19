@@ -2,7 +2,15 @@ let n = -10;
 let oddText = ""; 
 let evenText = ""; 
 
-let y = 0; 
+for (let i = 0; i < 10; i++){
+    if (i % 2 == 0) continue;
+    oddText += i + " ";
+}
+
+for (let i = 0; i < 10; i++){
+    if (i % 2 != 0) continue;
+    evenText += i + " ";
+}
 
 document.getElementById("pane").innerText = Boolean(10 > 9);
 document.getElementById("pane1").innerText = (9 > 10);
