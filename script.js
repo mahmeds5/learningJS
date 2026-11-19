@@ -1,12 +1,13 @@
-let n = 1;
+let n = 10;
 let text; 
 
 switch (n){
     case 0:
-        text = "It was 0!";
+        text = "Sunday";
         break;
-    case 1:
-        text = "Lol it's 1 now";
+    case 10:
+    case 3:
+        text = "testing mutli case";
         break; 
     default:
         text = "Dang it's default.";
