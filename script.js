@@ -1,11 +1,22 @@
-let a,x,y,z,b,text,age;
+let n = 1;
+let text; 
+
+switch (n){
+    case 0:
+        text = "It was 0!";
+        break;
+    case 1:
+        text = "Lol it's 1 now";
+        break; 
+    default:
+        text = "Dang it's default.";
+
+}
 
 
-age = 10; 
-text = (age <= 10) ? "you small" : "you big";
 
 document.getElementById("pane").innerText = text;
-document.getElementById("pane1").innerText = a > b;
-document.getElementById("pane2").innerText = y;
-document.getElementById("pane3").innerHTML = suprise;
+document.getElementById("pane1").innerText = text;
+document.getElementById("pane2").innerText = text;
+document.getElementById("pane3").innerHTML = text;
 
