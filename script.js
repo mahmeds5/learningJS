@@ -2,10 +2,12 @@ let n = -10;
 let text = ""; 
 
 
-do {
-    text = text + n + " ";
-    n--; 
-} while (n > 0);
+for (let i = 0; i < 10; i++){
+    if (i == 4) break;
+    text = text + i; 
+}
+
+
 
 
 
