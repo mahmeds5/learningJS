@@ -1,15 +1,9 @@
-let a,x,y,z;
+let a,x,y,z,b;
 
-let age = 34;
+let age = 10;
 let text; 
 
-if (age < 18) {
-    text = "You cannot vote."
-} else if (age > 65) {
-    text = "Damn you old ash but you can vote."
-} else {
-    text = "Yeah you can vote."
-}
+if (isNaN(age)) text = "Sorry, not a Number"; else text = "Ooooooh ok, you're " + age; 
 
 document.getElementById("pane").innerText = text;
 document.getElementById("pane1").innerText = a > b;
